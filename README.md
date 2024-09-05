@@ -12,5 +12,5 @@ git switch main
 
 To create a remote (upstream) repo from a local copy:
 ```
-gh repo create --public --source=. --remote=upstream --push
+gh repo create --public --source=. --remote=upstream --include-all-branches --push
 ```
